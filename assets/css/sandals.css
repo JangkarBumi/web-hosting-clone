@@ -71,7 +71,7 @@ table {
 
 
 .container-g {
-    max-width: 80%;
+    max-width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -128,7 +128,7 @@ table {
 }
 
 .col-7-g {
-    width: 85.33333334;
+    width: 85.33333334%;
     margin-right: 5px;
     margin-left: 5px;
     padding: 5px 5px 5px 10px;
@@ -196,4 +196,22 @@ body {
 
 .big-g {
     font-size: 2em;
+}
+
+
+/* Added CSS in sandals Ebeid */
+
+.text-center {
+  text-align: center;
+}
+.border-green{
+  border: solid 1px green;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white {
+  color: white;
 }

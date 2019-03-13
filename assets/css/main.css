@@ -10,3 +10,16 @@ nav{
 .hero-text{
     height: 224px;
 }
+
+
+
+
+
+
+/* Added CSS by Ebeid */
+
+.background {
+    background-image: url(https://damt7w3yoa0t2.cloudfront.net/img/specialoffers/bg_wphosting_support-32b592b.jpg);
+    background-size: cover;
+    background-position: center;
+}

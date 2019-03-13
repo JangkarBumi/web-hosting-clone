@@ -501,46 +501,46 @@ body {
 /* Padding Bottom */
 
 .pb-1 {
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .pb-2 {
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .pb-3 {
-    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .pb-4 {
-    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .pb-5 {
-    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 /* Padding Left */
 
 .pl-1 {
-    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .pl-2 {
-    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .pl-3 {
-    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .pl-4 {
-    padding-top: 40px;
+    padding-left: 40px;
 }
 
 .pl-5 {
-    padding-top: 50px;
+    padding-left: 50px;
 }
 
 
@@ -569,68 +569,68 @@ body {
 /* Margin Right */
 
 .mr-1 {
-    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .mr-2 {
-    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .mr-3 {
-    margin-top: 30px;
+    margin-right: 30px;
 }
 
 .mr-4 {
-    margin-top: 40px;
+    margin-right: 40px;
 }
 
 .mr-5 {
-    margin-top: 50px;
+    margin-right: 50px;
 }
 
 /* Margin Bottom */
 
 .mb-1 {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .mb-2 {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .mb-3 {
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .mb-4 {
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .mb-5 {
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 /* Margin Left*/
 
 .ml-1 {
-    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .ml-2 {
-    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .ml-3 {
-    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .ml-4 {
-    margin-top: 40px;
+    margin-left: 40px;
 }
 
 .ml-5 {
-    margin-top: 50px;
+    margin-left: 50px;
 }
 
 

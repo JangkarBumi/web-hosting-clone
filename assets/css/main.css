@@ -1,6 +1,6 @@
 nav{
     height: 80px;
-    background-color: aqua;
+    background-color:  #666666;
 }
 
 .border{
@@ -11,6 +11,50 @@ nav{
     height: 224px;
 }
 
+/* zeha css */
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li{
+    color: #fff;
+}
+
+.web-build{
+    background: #2cab7f;
+    height: 462px;
+}
+
+.web-trf{
+    background: #eca03e;
+    height: 462px;
+}
+
+.wp-user{
+    background: #3dafcb;
+    height: 462px;
+}
+
+.wp-dev{
+    background: #88659c;
+    height: 462px;
+}
+
+.card{
+    height: 362px;
+}
+
+.testimonial{
+    height: 570px;
+    background-color: #F5DEB3
+}
+
+footer{
+    background-color: #666;
+    height: 516px;
+}
 
 
 

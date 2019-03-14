@@ -177,7 +177,9 @@ a {
     display: flex;
     width: 100%;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
+
 
 .col-12-g {
     width: 100%;
@@ -278,41 +280,41 @@ body {
     word-wrap: break-word;
 }
 
-.font-size-1{
+.font-size-1 {
     font-size: .5em;
     line-height: .75em;
 }
 
 
-.font-size-2{
+.font-size-2 {
     font-size: .75em;
     line-height: 1em;
 }
 
 
-.font-size-3{
+.font-size-3 {
     font-size: 1em;
     line-height: 1.25em;
 }
 
-.font-size-4{
+.font-size-4 {
     font-size: 1.25em;
     line-height: 1.5em;
 }
 
-.font-size-5{
+.font-size-5 {
     font-size: 1.5em;
     line-height: 1.75em;
 }
 
 
-.font-size-6{
+.font-size-6 {
     font-size: 1.75em;
     line-height: 1.85em;
 }
 
 
-.font-size-7{
+.font-size-7 {
     font-size: 2em;
     line-height: 1.4em;
 }
@@ -355,33 +357,12 @@ body {
 }
 
 
-
-/* Text Decorations */
-
-
-.all-caps {
-    text-transform: uppercase;
-}
-
-
-
-/* font style */
-.italic {
-    font-style: italic;
-}
-
-.oblique {
-    font-style: oblique;
-}
-
-
-
 /* Horizontal positioning
 =======================================================*/
 
 /* Display Flex */
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -389,12 +370,15 @@ body {
 .dir-horizontal {
     flex-direction: column;
 }
+
 .dir-vertical {
     flex-direction: row;
 }
+
 .dir-horizontal-reverse {
     flex-direction: column-reverse
 }
+
 .dir-vertical-reverse {
     flex-direction: row-reverse
 }
@@ -661,6 +645,7 @@ body {
 .mt-5 {
     margin-top: 50px;
 }
+
 .mt-auto {
     margin-top: auto;
 }
@@ -716,6 +701,7 @@ body {
 .mb-auto {
     margin-bottom: auto;
 }
+
 /* Margin Left*/
 
 .ml-1 {
@@ -742,6 +728,114 @@ body {
     margin-left: auto;
 }
 
+/* font style*/
+
+.italic {
+    font-style: italic;
+}
+
+
+.initial {
+    font-style: initial;
+}
+
+.inherit {
+    font-style: inherit;
+}
+
+/* text-transform */
+
+.caps {
+    text-transform: uppercase;
+}
+
+.ups {
+    text-transform: uppercase;
+}
+
+.lows {
+    text-transform: lowercase;
+}
+
+/* Font Weight */
+
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+/* All direction margin */
+.m-1 {
+    margin: 10px;
+}
+
+
+.m-2 {
+    margin: 20px;
+}
+
+
+.m-3 {
+    margin: 30px;
+}
+
+
+.m-4 {
+    margin: 40px;
+}
+
+
+.m-5 {
+    margin: 50px;
+}
+
+
+/* All direction padding */
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+.p-4 {
+    padding: 40px;
+}
+
+.p-5 {
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -753,14 +847,11 @@ body {
 .btn-width-25 {
     width: 25%;
 }
+
 .btn-width-50 {
     width: 50%;
 }
+
 .btn-width-75 {
     width: 75%;
 }
-
-
-
-
-

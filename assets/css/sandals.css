@@ -314,7 +314,12 @@ body {
 
 .font-size-7{
     font-size: 2em;
-    line-height: 2.25em;
+    line-height: 1.4em;
+}
+
+.font-size-8 {
+    font-size: 2.25em;
+    line-height: 1.2em;
 }
 
 /* Added CSS in sandals Ebeid */
@@ -331,6 +336,9 @@ body {
     font-weight: bold;
 }
 
+.bolder {
+    font-weight: bolder;
+}
 
 /* Responsive images */
 .img-resp {
@@ -348,8 +356,49 @@ body {
 
 
 
+/* Text Decorations */
+
+
+.all-caps {
+    text-transform: uppercase;
+}
+
+
+
+/* font style */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+
+
 /* Horizontal positioning
 =======================================================*/
+
+/* Display Flex */
+
+.flex{
+    display: flex;
+}
+
+/* Flex directions */
+.dir-horizontal {
+    flex-direction: column;
+}
+.dir-vertical {
+    flex-direction: row;
+}
+.dir-horizontal-reverse {
+    flex-direction: column-reverse
+}
+.dir-vertical-reverse {
+    flex-direction: row-reverse
+}
+
 
 /* 1. For parent */
 
@@ -422,7 +471,7 @@ body {
 }
 
 .vertical-align-end {
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .vertical-align-stretch {
@@ -456,10 +505,13 @@ body {
 }
 
 .bg-gray {
-    background-color: #666;
+    background-color: #999;
 }
 
 
+.bg-dimgray {
+    background-color: #5f5e5e;
+}
 
 .bg-gold {
     background-color: rgb(205, 170, 114);
@@ -487,7 +539,11 @@ body {
 
 
 .gray {
-    color: #666;
+    color: #999;
+}
+
+.dimgray {
+    color: #5f5e5e;
 }
 
 .gold {
@@ -605,6 +661,9 @@ body {
 .mt-5 {
     margin-top: 50px;
 }
+.mt-auto {
+    margin-top: auto;
+}
 
 /* Margin Right */
 
@@ -626,6 +685,10 @@ body {
 
 .mr-5 {
     margin-right: 50px;
+}
+
+.mr-auto {
+    margin-right: auto;
 }
 
 /* Margin Bottom */
@@ -650,7 +713,9 @@ body {
     margin-bottom: 50px;
 }
 
-
+.mb-auto {
+    margin-bottom: auto;
+}
 /* Margin Left*/
 
 .ml-1 {
@@ -672,5 +737,30 @@ body {
 .ml-5 {
     margin-left: 50px;
 }
+
+.ml-auto {
+    margin-left: auto;
+}
+
+
+
+
+/* Buttons
+============================================================= */
+
+/* Button Width */
+
+.btn-width-25 {
+    width: 25%;
+}
+.btn-width-50 {
+    width: 50%;
+}
+.btn-width-75 {
+    width: 75%;
+}
+
+
+
 
 

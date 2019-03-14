@@ -278,14 +278,44 @@ body {
     word-wrap: break-word;
 }
 
-.small-g {
-    font-size: .7em;
+.font-size-1{
+    font-size: .5em;
+    line-height: .75em;
 }
 
-.big-g {
+
+.font-size-2{
+    font-size: .75em;
+    line-height: 1em;
+}
+
+
+.font-size-3{
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+.font-size-4{
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.font-size-5{
+    font-size: 1.5em;
+    line-height: 1.75em;
+}
+
+
+.font-size-6{
+    font-size: 1.75em;
+    line-height: 1.85em;
+}
+
+
+.font-size-7{
     font-size: 2em;
+    line-height: 2.25em;
 }
-
 
 /* Added CSS in sandals Ebeid */
 
@@ -429,6 +459,12 @@ body {
     background-color: #666;
 }
 
+
+
+.bg-gold {
+    background-color: rgb(205, 170, 114);
+}
+
 /* Colors */
 
 .white {
@@ -452,6 +488,10 @@ body {
 
 .gray {
     color: #666;
+}
+
+.gold {
+    color: rgb(205, 170, 114);
 }
 
 /* Padding */

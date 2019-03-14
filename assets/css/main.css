@@ -1,62 +1,197 @@
-nav{
+nav {
     height: 80px;
-    background-color:  #666666;
+    background-color: #666666;
+
 }
 
-.border{
-    border:1px solid tomato;
+.border {
+    border: 1px solid tomato;
 }
 
-.hero-text{
+.hero-text {
     height: 224px;
 }
 
 /* zeha css */
-nav ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-nav ul li{
+nav ul li {
     color: #fff;
 }
 
-.web-build{
+.web-build {
     background: #2cab7f;
     height: 462px;
 }
 
-.web-trf{
+.web-trf {
     background: #eca03e;
     height: 462px;
 }
 
-.wp-user{
+.wp-user {
     background: #3dafcb;
     height: 462px;
 }
 
-.wp-dev{
+.wp-dev {
     background: #88659c;
     height: 462px;
 }
 
-.card{
+.card {
     height: 362px;
+    background-color: #ffff
 }
 
-.testimonial{
+.testimonial {
     height: 570px;
     background-color: #F5DEB3
 }
 
-footer{
+footer {
     background-color: #666;
     height: 516px;
 }
 
+.deck {
+    margin: 0 auto;
+    width: 90%;
+}
 
+.host-platform {
+    background-color: #F5DEB3
+}
+
+.icon-size{
+    width: 14px;
+    height: 18px;
+}
+
+.hero-h1{
+    font-size: 44px;
+    line-height: 54px;
+    color: #000;
+    font-weight: 700;
+}
+
+.hero-h2{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #cdaa72;
+}
+
+.hero-p{
+    color: #444;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    padding: 40px 0;
+    font-style: italic;
+}
+
+/* Card */
+
+.card-span{
+    color: #939191;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.card-h4{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.card-p{
+    color: #5d5c5c;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 10px;
+    margin-bottom: 30px !important;
+}
+
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    user-select: none;
+}
+
+/* Flash Header */
+.flash-header{
+    margin: 0 auto;
+}
+
+
+.flash-header h2{
+    padding-top: 26px;
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    font-weight: 700;
+    text-transform: capitalize;
+}    
+
+.flash-header p{
+    color: #444;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+/* Flash Card */
+.flash-card span{
+    color: rgba(255,255,255,0.6);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.flash-card h3{
+
+}
+
+.flash-card p{
+
+}
+
+
+/* Testimonials */
+.testimonial-author{
+    background-color: #fff;
+}
+
+/* Sandals */
+
+
+
+.flex{
+    display: flex;
+}
 
 
 

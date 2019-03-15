@@ -1,0 +1,123 @@
+.hero-h1 {
+    font-size: 44px;
+}
+
+.hero-h2 {
+    font-size: 22px;
+}
+
+.hero-p {
+    font-size: 20px;
+}
+
+/* Card */
+.card-span {
+    font-size: 16px;
+}
+
+.card-h4 {
+    font-size: 22px;
+}
+
+.card-p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Flash Header */
+.flash-header {
+    margin: 0 auto;
+}
+
+
+.flash-header h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+/* Flash Card */
+.flash-card span {
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+.flash-card h3 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.flash-card p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+/* Footer Section */
+
+.footer-section h1 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-section ul li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* Sandals */
+
+
+/* Added CSS by Ebeid */
+
+.background {
+    background-image: url(https://damt7w3yoa0t2.cloudfront.net/img/specialoffers/bg_wphosting_support-32b592b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.line{
+    width: 100%;
+    height: 4px;
+}
+
+
+.text {
+    display: inline-block;
+    max-width: 90%;
+    overflow: hidden;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.wordpress-section {
+    background-image: url(https://damt7w3yoa0t2.cloudfront.net/img/backgrounds-png/bg_light_blue_lines-598d564.png), url(https://damt7w3yoa0t2.cloudfront.net/img/patterns/crepe_paper2_light_blue_pattern-598d564.jpg);
+}
+
+.reviews-section {
+    background-image: url(https://damt7w3yoa0t2.cloudfront.net/img/specialoffers/background_ligthyellow_noise-af3fdc0.png);
+}
+
+.btn-reviews {
+    border-radius: 3px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: transparent;
+    border: solid 1px rgba(0,0,0,.30);
+}
+
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 992px) {
+    .syed {
+        width: 300px;
+       }
+
+}

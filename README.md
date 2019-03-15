@@ -7,8 +7,7 @@ This is simple clone from [siteground.com](https://www.siteground.com/) to test 
 
 # Grid Framework Repo
 
-[Sandals Framework] (https://github.com/mosaaleb/sandals)
-
+[Sandals Framework](https://github.com/mosaaleb/sandals)
 
 # Contributers
 

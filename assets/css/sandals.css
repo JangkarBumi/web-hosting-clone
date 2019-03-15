@@ -373,7 +373,7 @@ body {
 }
 
 .dir-vertical {
-    flex-direction: row;
+    flex-direction: row !important;
 }
 
 .dir-horizontal-reverse {
@@ -1006,4 +1006,11 @@ body {
     .flex:not(ul) {
         flex-direction: column;
     }
+    .mobile {
+        display: flex;
+        flex-direction: column!important;
+        width: 100%;
+        text-align: center;
+}
+
 }

@@ -367,6 +367,7 @@ body {
     display: flex;
 }
 
+
 /* Flex directions */
 .dir-horizontal {
     flex-direction: column;
@@ -996,6 +997,7 @@ body {
         flex-direction: column;
     }
 
+   
 }
 
 
@@ -1011,6 +1013,8 @@ body {
         flex-direction: column!important;
         width: 100%;
         text-align: center;
-}
-
+    }
+    footer {
+        padding: unset!important;
+    }
 }

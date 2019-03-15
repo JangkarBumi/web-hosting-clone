@@ -163,20 +163,25 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-bottom: 10px;
+
 }
 
 .container-fluid-g {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10px;
 }
+
+.container-middle-g {
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 .row-g {
     display: flex;
     width: 100%;
-    margin-bottom: 10px;
+
 }
 
 
@@ -329,9 +334,6 @@ body {
     text-align: center;
 }
 
-.border-green {
-    border: solid 1px green;
-}
 
 .bold {
     font-weight: bold;
@@ -470,6 +472,68 @@ body {
 }
 
 
+
+/* Colors
+============================================ */
+
+
+
+/* Border Colors */
+
+.border-white {
+    border: 1px solid white;
+}
+
+.border-red {
+    border: 1px solid #AA3939;
+}
+
+.border-blue {
+    border: 1px solid #2E4172;
+}
+
+.border-black {
+    border: 1px solid black;
+}
+
+.border-gray {
+    border: 1px solid #999;
+}
+
+
+.border-dimgray {
+    border: 1px solid #5f5e5e;
+}
+
+.border-gold {
+    border: 1px solid rgb(205, 170, 114);
+}
+
+.border-green {
+    border: 1px solid #2cab7f;
+}
+
+.border-yellow {
+    border: 1px solid #eca03e;
+}
+
+.border-youngblue {
+    border: 1px solid#3dafcb;
+}
+
+.border-purple {
+    border: 1px solid#88659c;
+}
+
+.border-mango {
+    border: 1px solid #f67a3c;
+}
+
+.border-transparent {
+    border: 1px solid transparent;
+}
+
+
 /* Background-Colors */
 .bg-white {
     background-color: white;
@@ -499,6 +563,32 @@ body {
 .bg-gold {
     background-color: rgb(205, 170, 114);
 }
+
+.bg-green {
+    background-color: #2cab7f;
+}
+
+.bg-yellow {
+    background-color: #eca03e;
+}
+
+.bg-youngblue {
+    background-color: #3dafcb;
+}
+
+.bg-purple {
+    background-color: #88659c;
+}
+
+.bg-mango {
+    background-color: #f67a3c;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+
 
 /* Colors */
 
@@ -841,6 +931,21 @@ body {
 /* Buttons
 ============================================================= */
 
+/* Button Default Template */
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+
+
+
+
 /* Button Width */
 
 .btn-width-25 {
@@ -861,26 +966,36 @@ body {
 /* Media Queries 
 ================================== */
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
 
-    
+
+@media screen and (max-width: 1222px) {
+    .flex:not(ul) {
+        flex-direction: column;
+        align-items: unset;
+    }
+}
+
+@media screen and (max-width: 992px) {
     .row-g {
         flex-direction: column;
     }
+
     .row-g * {
         width: 100%;
     }
-    .flex:not(ul){
+
+    .flex:not(ul) {
         flex-direction: column;
     }
 
-    
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
     .row-g {
+        flex-direction: column;
+    }
+    .flex:not(ul) {
         flex-direction: column;
     }
 }

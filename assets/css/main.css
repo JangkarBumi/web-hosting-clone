@@ -4,9 +4,6 @@ nav {
 
 }
 
-.border {
-    border: 1px solid tomato;
-}
 
 .hero-text {
     height: 224px;
@@ -17,9 +14,6 @@ nav {
 nav ul li {
     color: #fff;
 }
-
-
-
 
 
 .testimonial {
@@ -189,59 +183,6 @@ footer {
 
 
 /* Sandals */
-/* button template */
-
-.btn {
-
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 14px;
-    border-radius: 4px;
-    background-color: tomato;
-
-}
-
-/* middle container */
-
-.container-middle-g{
-    width: 90%;
-    margin: 0 auto;
-}
-
-/* bg */
-.bg-green {
-    background-color: #2cab7f !important;
-}
-
-.bg-yellow {
-    background-color: #eca03e !important;
-}
-
-.bg-youngblue {
-    background: #3dafcb !important;
-}
-
-.bg-purple {
-    background: #88659c !important;
-}
-
-.bg-mango{
-    background-color: #f67a3c !important;
-}
-
-.bg-transparent{
-    background-color: transparent !important;
-}
-
-
-/* border */
-.border-white {
-    border: solid 1px white;
-  }
-
 
 
 /* Added CSS by Ebeid */

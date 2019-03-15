@@ -407,6 +407,10 @@ body {
     justify-content: space-between;
 }
 
+
+
+
+
 /* 2. For children */
 
 .self-start {
@@ -447,6 +451,10 @@ body {
 .vertical-between {
     align-content: space-between;
 }
+
+
+/*  */
+
 
 
 /* Vertical alignment for items  */

@@ -564,6 +564,9 @@ body {
     background-color: #999;
 }
 
+.bg-darkgray{
+    background-color: #666666;
+}
 
 .bg-dimgray {
     background-color: #5f5e5e;
@@ -597,7 +600,9 @@ body {
     background-color: transparent;
 }
 
-
+.bg-icecream{
+    background-color: #F5DEB3
+}
 
 /* Colors */
 
@@ -630,6 +635,10 @@ body {
 
 .gold {
     color: rgb(205, 170, 114);
+}
+
+.darkyellow{
+       color: #cdaa72;
 }
 
 /* Padding */
@@ -969,8 +978,10 @@ body {
     width: 75%;
 }
 
-
-
+/* Navbar */
+nav {
+    height: 80px;
+}
 
 /* Media Queries 
 ================================== */

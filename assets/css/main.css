@@ -18,30 +18,9 @@ nav ul li {
     color: #fff;
 }
 
-.web-build {
-    background: #2cab7f;
-    height: 462px;
-}
 
-.web-trf {
-    background: #eca03e;
-    height: 462px;
-}
 
-.wp-user {
-    background: #3dafcb;
-    height: 462px;
-}
 
-.wp-dev {
-    background: #88659c;
-    height: 462px;
-}
-
-.card {
-    height: 362px;
-    background-color: #ffff
-}
 
 .testimonial {
     height: 570px;
@@ -50,31 +29,26 @@ nav ul li {
 
 footer {
     background-color: #666666;
-    height: 516px;
 }
 
-.deck {
-    margin: 0 auto;
-    width: 90%;
-}
 
 .host-platform {
     background-color: #F5DEB3
 }
 
-.icon-size{
+.icon-size {
     width: 14px;
     height: 18px;
 }
 
-.hero-h1{
+.hero-h1 {
     font-size: 44px;
     line-height: 54px;
     color: #000;
     font-weight: 700;
 }
 
-.hero-h2{
+.hero-h2 {
     font-size: 22px;
     line-height: 30px;
     font-weight: 500;
@@ -85,7 +59,7 @@ footer {
     color: #cdaa72;
 }
 
-.hero-p{
+.hero-p {
     color: #444;
     font-size: 20px;
     line-height: 28px;
@@ -96,7 +70,7 @@ footer {
 
 /* Card */
 
-.card-span{
+.card-span {
     color: #939191;
     font-size: 16px;
     line-height: 26px;
@@ -104,14 +78,14 @@ footer {
     text-transform: uppercase;
 }
 
-.card-h4{
+.card-h4 {
     font-size: 22px;
     text-transform: capitalize;
     font-weight: 700;
     padding-bottom: 30px;
 }
 
-.card-p{
+.card-p {
     color: #5d5c5c;
     font-size: 16px;
     line-height: 26px;
@@ -119,32 +93,15 @@ footer {
     margin-bottom: 30px !important;
 }
 
-.btn{
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    background-color: #f0ad4e;
-    border-color: #eea236;
-    user-select: none;
-}
+
 
 /* Flash Header */
-.flash-header{
+.flash-header {
     margin: 0 auto;
 }
 
 
-.flash-header h2{
+.flash-header h2 {
     padding-top: 26px;
     margin-top: 30px;
     font-size: 30px;
@@ -152,9 +109,9 @@ footer {
     color: #000;
     font-weight: 700;
     text-transform: capitalize;
-}    
+}
 
-.flash-header p{
+.flash-header p {
     color: #444;
     font-size: 20px;
     line-height: 28px;
@@ -163,15 +120,15 @@ footer {
 }
 
 /* Flash Card */
-.flash-card span{
-    color: rgba(255,255,255,0.6);
+.flash-card span {
+    color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-.flash-card h3{
+.flash-card h3 {
     color: #fff;
     font-size: 26px;
     line-height: 36px;
@@ -180,7 +137,7 @@ footer {
     text-transform: capitalize;
 }
 
-.flash-card p{
+.flash-card p {
     color: #fff;
     font-size: 16px;
     line-height: 26px;
@@ -190,11 +147,11 @@ footer {
 
 
 /* Testimonials */
-.testimonial-author{
+.testimonial-author {
     background-color: #fff;
 }
 
-.testimonial-title{
+.testimonial-title {
     padding-top: 26px;
     margin-top: 30px;
     color: #000;
@@ -206,7 +163,7 @@ footer {
     margin-bottom: 10px !important;
 }
 
-.testimonial-text{
+.testimonial-text {
     color: #5d5c5c;
     font-size: 16px;
     line-height: 26px;
@@ -215,7 +172,7 @@ footer {
 
 /* Footer Section */
 
-.footer-section h1{
+.footer-section h1 {
     color: #939191;
     font-size: 14px;
     line-height: 24px;
@@ -224,19 +181,66 @@ footer {
     text-transform: uppercase;
 }
 
-.footer-section ul li{
+.footer-section ul li {
     font-size: 14px;
     line-height: 24px;
     color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
-    .card {
-        flex:0 0 100%
-    }
-  }
 
 /* Sandals */
+/* button template */
+
+.btn {
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: tomato;
+
+}
+
+/* middle container */
+
+.container-middle-g{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* bg */
+.bg-green {
+    background-color: #2cab7f !important;
+}
+
+.bg-yellow {
+    background-color: #eca03e !important;
+}
+
+.bg-youngblue {
+    background: #3dafcb !important;
+}
+
+.bg-purple {
+    background: #88659c !important;
+}
+
+.bg-mango{
+    background-color: #f67a3c !important;
+}
+
+.bg-transparent{
+    background-color: transparent !important;
+}
+
+
+/* border */
+.border-white {
+    border: solid 1px white;
+  }
 
 
 
